@@ -1,0 +1,131 @@
+author = "Carlos Duelo <c@cduelo.com>"
+title = "cduelo site"
+theme = "cduelo"
+MetaDataFormat = "toml"
+IsMultiLingual = true
+DefaultContentLanguage = "en"
+DisableLanguages = ["pt"]
+
+
+[params]
+  [params.personal]
+    [params.personal.contact]
+      name = "Carlos Duelo"
+      profession = "Software engineer"
+      address = "Bogotá, Colombia"
+      email = "c@cduelo.com"
+      picture = ""
+      website = "https://cduelo.com"
+    [params.personal.github]
+      user = "carlosduelo"
+      url =  "https://github.com/carlosduelo"
+    [params.personal.twitter]
+      user = "_cduelo"
+      url =  "https://twitter.com/_cduelo"
+    [params.personal.linkedin]
+      user = "carlosduelo"
+      url =  "https://www.linkedin.com/in/carlosduelo"
+
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume/"
+        weight = 20
+
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 30
+
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 40
+
+      [[languages.en.menu.main]]
+        identifier = "gallery"
+        name = "Gallery"
+        url = "/gallery/"
+        weight = 50
+
+  [languages.es]
+    weight = 2
+    languageName = "Español"
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10
+
+      [[languages.es.menu.main]]
+        identifier = "resume"
+        name = "Curriculum"
+        url = "/resume/"
+        weight = 20
+
+      [[languages.es.menu.main]]
+        identifier = "posts"
+        name = "Articulos"
+        url = "/posts/"
+        weight = 30
+
+      [[languages.es.menu.main]]
+        identifier = "projects"
+        name = "Projectos"
+        url = "/projects/"
+        weight = 40
+
+      [[languages.es.menu.main]]
+        identifier = "gallery"
+        name = "Galería"
+        url = "/gallery/"
+        weight = 50
+
+  [languages.pt]
+    weight = 3
+    languageName = "Portugues"
+    [languages.pt.menu]
+      [[languages.pt.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10
+
+      [[languages.pt.menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume/"
+        weight = 20
+
+      [[languages.pt.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 30
+
+      [[languages.pt.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 40
+
+      [[languages.pt.menu.main]]
+        identifier = "gallery"
+        name = "Gallery"
+        url = "/gallery/"
+        weight = 50
